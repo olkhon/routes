@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, Link} from 'react-router-dom';
 import './App.css';
 import UserDetails from './views/UserDetails';
 import About from './views/About';
@@ -19,6 +19,9 @@ function App() {
          <div>This is the default page</div>
        </Route>
      </Switch>
+     <Link to="/users">Get me users</Link>
+     <Link to="/about">Get me about</Link>
+     <Link to="/">Get me default</Link>
     </div>
   );
 }
