@@ -15,7 +15,9 @@ function App() {
        <Route path="/about">
          <About />
        </Route>
-       <Route path=""></Route>
+       <Route path="/">
+         <div>This is the default page</div>
+       </Route>
      </Switch>
     </div>
   );
